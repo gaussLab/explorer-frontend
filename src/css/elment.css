@@ -1,0 +1,35 @@
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+  color: #fff !important;
+  background: #5841AC;
+}
+.el-pagination.is-background .el-pager li:not(.disabled):hover {
+  color: #fff !important;
+}
+.el-radio-button:focus:not(.is-focus):not(:active):not(.is-disabled) {
+  box-shadow: 0px 0px 0px 0px transparent !important;
+}
+.el-radio-group .is-active:target {
+  border: 1px solid red;
+  box-shadow: 0px 0px 0px 0px;
+}
+.el-table {
+  font-size: 12px !important;
+}
+.el-radio-button__orig-radio:checked + .el-radio-button__inner {
+  background-color: #5841AC;
+  border-color: #5841AC;
+}
+.el-radio-button__inner:hover {
+  color: #5841AC;
+}
+.el-radio-button__orig-radio:checked + .el-radio-button__inner {
+  box-shadow: -1px 0 0 0 #5841AC;
+}
+.el-button--primary,
+.el-button--primary:focus,
+.el-button--primary:hover {
+  border-color: transparent;
+}
+.el-table--enable-row-hover .el-table__body tr:hover > td {
+  background: #fff;
+}
